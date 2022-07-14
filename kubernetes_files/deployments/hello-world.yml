@@ -17,5 +17,6 @@ spec:
       containers:
         - name: hello-world
           image: 26101735/microservice:hello
+          imagePullPolicy: Always
           ports:
             - containerPort: 9001
