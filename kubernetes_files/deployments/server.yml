@@ -17,5 +17,6 @@ spec:
       containers:
         - name: server
           image: 26101735/microservice:server
+          imagePullPolicy: Always
           ports:
             - containerPort: 3000
