@@ -17,5 +17,6 @@ spec:
       containers:
         - name: product-price
           image: 26101735/microservice:productprice
+          imagePullPolicy: Always
           ports:
             - containerPort: 9003
