@@ -17,5 +17,6 @@ spec:
       containers:
         - name: product-descp
           image: 26101735/microservice:productdescp
+          imagePullPolicy: Always
           ports:
             - containerPort: 9002
